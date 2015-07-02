@@ -1,0 +1,20 @@
+{
+   "name": "aurora-framework/service",
+   "description": "Session",
+   "license": "MIT",
+   "authors": [
+      {
+         "name": "VeeeneX",
+         "email": "veeenex@gmail.com"
+      }
+   ],
+   "require": {
+      "php": ">=5.4.0",
+      "aurora-framework/helper": "dev-master"
+   },
+   "autoload": {
+      "psr-4": {
+         "Aurora\\": "src//"
+      }
+   }
+}
