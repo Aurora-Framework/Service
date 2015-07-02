@@ -10,7 +10,7 @@
    ],
    "require": {
       "php": ">=5.4.0",
-      "aurora-framework/helper": "1.0"
+      "aurora-framework/helper": "v1.*"
    },
    "require": {
       "php": ">=5.4.0",
