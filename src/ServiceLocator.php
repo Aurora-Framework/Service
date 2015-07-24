@@ -1,41 +1,10 @@
 <?php
 
-/**
- * Aurora - Framework
- *
- * Aurora is fast, simple, extensible Framework
- *
- * PHP version 6
- *
- * @category   Framework
- * @package    Aurora
- * @author     VeeeneX <veeenex@gmail.com>
- * @copyright  2015 Caroon
- * @license    MIT
- * @version    0.1.2
- * @link       http://caroon.com/Aurora
- *
- */
-
 namespace Aurora;
-
-/**
- * Container
- *
- * Simple Container (IoC)
- *
- * @category   Commnon
- * @package    Aurora
- * @author     VeeeneX <veeenex@gmail.com>
- * @copyright  2015 Caroon
- * @license    MIT
- * @version    0.1.2
- * @link       http://pear.php.net/package/PackageName
-*/
 
 use Aurora\Helper\StatefulTrait;
 
-class Service
+class ServiceLocator
 {
 	/**
 	 * Helper trait
