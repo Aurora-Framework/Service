@@ -2,14 +2,14 @@
 
 namespace Aurora;
 
-use Aurora\Helper\StatefulTrait;
+use Aurora\Helper\ObjectTrait;
 
 class ServiceLocator
 {
 	/**
 	 * Helper trait
 	 */
-	use StatefulTrait;
+	use ObjectTrait;
 
 	/**
 	 * Register a shared binding in the container
